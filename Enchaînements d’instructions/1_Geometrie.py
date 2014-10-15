@@ -15,7 +15,7 @@ def cercle(r):
     if(r >= 0):
         d = 2*r                # diamètre
         p = 2*pi*r        # périmètre
-        s = 2*pi*r*r      # surface
+        s = pi*r*r      # surface
 
         return d, p, s
 
